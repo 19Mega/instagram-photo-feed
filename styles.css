@@ -1,0 +1,126 @@
+div{
+
+}
+  
+.c-black{
+	background-color: rgb(51, 51, 51);
+}
+
+.nav-bar{
+	color:rgb(241, 241, 241);
+	text-align: center;
+	font-size: 22px;
+	border-bottom: 5px solid rgb(73, 71, 73);	
+}
+
+  .content-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .photo-section {	
+	border: 1px solid rgb(255, 255, 255);
+	border-top: 3px solid rgb(173, 173, 173);	
+	border-bottom: 3px solid rgb(173, 173, 173);	
+	background-color: rgb(255, 255, 255);
+  }
+
+  .photo {
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+  }
+
+  .photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+  }
+
+  .photo-header-section {
+	display: flex;
+	height: 23px;
+	text-align: center;
+	width: 400px;
+	overflow-wrap: break-word;
+	margin-top: 5px;
+	margin-bottom: 24px;
+  }
+  
+  .footer-section {
+	width: 400px;
+	text-align: justify;
+	color:black;
+	padding:8px;
+  }
+
+   /* instagram-header*/
+   .title-section {
+    display:flex;
+    align-items: center;
+    height: 50px;
+    color:black;
+  }
+  
+  .title-html5-icon{
+    font-size: 35px;
+    padding: 4px;
+    vertical-align: middle;
+    color:black;
+    margin-left: 10px;
+  }
+  
+  .title-header{
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;
+    color:black;
+    text-align: justify;
+  }
+  
+  .title-header p {
+    margin: 0; 
+  }
+  
+  .title-ellipsis{
+    font-size: 25px;
+    flex: 1 0 270%;
+    text-align: right;
+    vertical-align: middle;
+    color:black;
+    padding-right: 5px;
+  }
+
+  /* instagram-footer*/
+  .img-footer-icons{
+    display:flex;
+    align-items: center;
+    height: 40px;
+    color:black;
+    font-size: 25px;
+    margin:0px;
+    padding-left:2px;
+  }
+  
+  .right-position{
+    text-align: right;
+    flex: 1 1 70%;
+    padding-right: 5px;
+  }
+
+  .icon-padding{
+    padding:3px;
+  }
+
+
+  .like-section{
+    padding-left: 5px;
+  }
+  
+  .justify-text p{
+    text-align: justify;
+    padding:5px;
+  }
